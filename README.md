@@ -63,3 +63,91 @@
 ### Installation
 
 1. **Clone the repository**
+2. git clone https://github.com/gaffar273/synkronow.git
+cd synkronow
+
+2. **Backend Setup**
+cd backend
+npm install
+Create .env file
+
+echo "MONGO_URI=your_mongodb_uri
+JWT_SECRET=your_secret_key
+PORT=5000" > .env
+Start backend
+
+npm start 
+
+3. **Frontend Setup**
+4. cd client
+npm install
+Start frontend
+
+npm run dev
+
+
+4. **Access the app**
+- Frontend: `http://localhost:5173`
+- Backend: `http://localhost:5000`
+
+---
+
+
+---
+
+## 🎯 Key Highlights
+
+✅ **Admin Isolation** - Each admin sees only their projects and tasks  
+✅ **Role-Based Access** - Separate dashboards for admins and users  
+✅ **Task Code System** - Unique codes for easy task access  
+✅ **Request Approval** - Admins control who can access tasks  
+✅ **Modern UI/UX** - Clean, responsive design with dark mode  
+✅ **Secure Authentication** - JWT tokens with bcrypt password hashing  
+✅ **RESTful API** - Well-structured backend architecture  
+✅ **Deployed & Live** - Fully functional production app  
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Gaffar**
+
+- GitHub: [@gaffar273](https://github.com/gaffar273)
+- LinkedIn: (https://www.linkedin.com/in/abdul-gaffar-sk-07b373212/)
+
+---
+
+## 🙏 Acknowledgments
+
+- Thanks to all contributors
+- Built with passion and dedication
+- Open to feedback and improvements
+
+---
+
+⭐ **Star this repo if you find it helpful!**
+
+🔗 **Live Demo:** [https://synkronow.vercel.app/](https://synkronow.vercel.app/)
+
+
+
+
+
